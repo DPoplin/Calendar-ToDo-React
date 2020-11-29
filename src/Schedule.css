@@ -1,10 +1,7 @@
+
+
 .scheduleMain {
-  display: inline-block;
-  position: absolute;
-  top: 400px;
-  left: 70%;
-  width: 25%;
-  margin-right: 10%;
+padding: 15px;
 }
 .scheduleMain .header{
   width: 100%;
@@ -16,10 +13,8 @@
   width: 100%;
 }
 .scheduleMain button {
-  padding: 10px;
   font-size: 16px;
-  margin: 10px;
-  margin-right: 0;
+  margin: 20px 10px 0;
   background-color: #0066FF;
   color: #FFF;
   border: 2px solid #0066FF;
@@ -31,8 +26,6 @@
 }
 .scheduleMain .theList {
   list-style: none;
-  padding-left: 0;
-  width: 100%;
 }
 .scheduleMain .theList li {
   color: #333;
@@ -54,4 +47,8 @@
 
 ul.theList {
   padding: 0;
+}
+
+form {
+  margin-bottom:-30px;
 }

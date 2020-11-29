@@ -20,7 +20,7 @@ const day = date.getDate();
   res.render("list", {
     listTitle: day,
     newListItems: items
-  })
+  });
 });
 
 // app.get("/work", function(req,res){
@@ -36,10 +36,10 @@ app.post("/", function(req, res){
 
 app.get("/about", function(req, res){
   res.render("about");
-})
+});
 
 app.listen(3000, function(req, res) {
-  console.log("Server is running on port 3000")
+  console.log("Server is running on port 3000");
 });
 
 export {items, workItems};
