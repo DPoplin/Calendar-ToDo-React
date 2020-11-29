@@ -5,7 +5,7 @@ This project is a one page React app with Calendar, To-do List, and inspirationa
 ## Dependencies
 
 Use npm install from the main directory to download dependencies for React and Bootstrap:
-    `$ npm install`
+<br />    `$ npm install`
 
 ## How to use
 
