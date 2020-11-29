@@ -7,7 +7,7 @@ This project is a one page React app with Calendar, To-do List, and inspirationa
 Use npm install from the main directory to download dependencies for React and Bootstrap:
     `$ npm install`
 
-##How to use
+## How to use
 
 This project is reliant upon the [Google Calendar API](https://developers.google.com/calendar/overview) to show calendar events. Create a .env file in the main directory:
     `GOOGLE_CALENDAR_ID='your_google_calendar_id'`
