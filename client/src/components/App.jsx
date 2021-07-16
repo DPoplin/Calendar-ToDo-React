@@ -21,15 +21,6 @@ function App() {
       .then((data) => setData(data.message));
   } , [])
 
-    // return (
-    //   <div className="App">
-    //   <header className="App-header">
-        
-    //     <p>{!data ? "Loading..." : data}</p>
-    //   </header>
-    // </div>
-    // );
-
   return (
     <Container fluid>
     <div className="App">
