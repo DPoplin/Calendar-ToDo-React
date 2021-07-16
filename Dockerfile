@@ -1,3 +1,4 @@
+
 FROM node:16
 
 WORKDIR /usr/src/app
@@ -6,8 +7,8 @@ COPY package*.json ./
 
 RUN npm install
 
-COPY . .
+COPY server.js .
 
-EXPOSE 8080
+EXPOSE 5000
 
-CMD ["react-dotenv", "&&", "react-scripts", "start"]
+CMD ["node", "server.js"]
