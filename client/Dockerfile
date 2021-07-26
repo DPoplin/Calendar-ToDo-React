@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 8080
 
-CMD ["react-dotenv", "&&", "react-scripts", "start"]
+CMD ["npm", "start"]

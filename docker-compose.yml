@@ -2,8 +2,11 @@ version: "3.7"
 
 services:
   server:
-    build: .
+    build: ./server
   client:
     build: ./client
   db:
     image: postgres:13.3
+    environment: 
+      POSTGRES_PASSWORD: password
+      POSTGRES_USER: postgres
